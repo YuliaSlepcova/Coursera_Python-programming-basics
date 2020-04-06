@@ -1,0 +1,10 @@
+number = int(input())
+number1 = number % 86400
+hour = number1 // 3600
+minute = (number % 3600) // 60
+minute1 = minute // 10
+minute2 = minute % 10
+secund = number1 % 60
+secund1 = secund // 10
+secund2 = secund % 10
+print(hour, ':', minute1, minute2, ':', secund1, secund2, sep='')
