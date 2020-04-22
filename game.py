@@ -1,4 +1,5 @@
-number = 42
+import  random
+number = random.randint(0, 101)
 
 while True:
 
